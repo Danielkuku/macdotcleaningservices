@@ -441,7 +441,16 @@ const App = () => {
                     required
                   />
                 </div>
-
+                <div className="form-group">
+                  <label htmlFor="email">Email:</label>
+                  <input
+                    id="email"
+                    type="text"
+                    name="email"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
                 <div className="form-group">
                   <label htmlFor="phone">Phone:</label>
                   <input
