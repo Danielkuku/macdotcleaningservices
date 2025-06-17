@@ -71,7 +71,7 @@ const App = () => {
       <nav className="navbar">
         <a href="#home" className="logo" onClick={closeMenu}>
           <div className="logo">
-            <img src="/public/logo.png" alt="Macdot Logo" />
+            <img src="/logo.png" alt="Macdot Logo" />
           </div>
         </a>
 
