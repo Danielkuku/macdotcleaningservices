@@ -870,7 +870,7 @@ section {
     width: 300px;
   }
   .hero {
-    min-height: 95vh;
+    min-height: 80vh;
   }
   .hero h1 {
     margin-top: 4rem;
