@@ -32,7 +32,7 @@ const SpecialEventCleaning = () => {
       <nav className="navbar">
         <Link to="/#home" className="logo" onClick={closeMenu}>
           <div className="logo">
-            <img src="/public/logo.png" alt="Macdot Logo" />
+            <img src="/logo.png" alt="Macdot Logo" />
           </div>
         </Link>
 
@@ -124,7 +124,7 @@ const SpecialEventCleaning = () => {
             ))}
           </ul>
           <div className="service-image">
-            <img src="/public/servicepage5.jpg" alt="Special Event Cleaning" />
+            <img src="/servicepage5.jpg" alt="Special Event Cleaning" />
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ const SpecialEventCleaning = () => {
             {/* Contact Section */}
             <div className="footer-section">
               <div className="footer-logo">
-                <img src="/public/logo.png" alt="Logo" />
+                <img src="/logo.png" alt="Logo" />
               </div>
               <h3 className="footer-heading">Contact</h3>
               <div className="footer-contact">

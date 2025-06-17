@@ -293,11 +293,11 @@ const App = () => {
             here to make your life easier, one clean at a time.
           </p>
         </div>
-        <img className="about-img" src="/public/clean 2.webp" alt="About Us" />
+        <img className="about-img" src="/clean 2.webp" alt="About Us" />
       </section>
 
       <section id="mission" className="vision">
-        <img src="/public/clean 4.avif" alt="Our Vision" />
+        <img src="/clean 4.avif" alt="Our Vision" />
         <div className="text">
           <div class="services-headingg">
             <h2>Our Mission</h2>
@@ -376,7 +376,7 @@ const App = () => {
             {/* Contact Section */}
             <div className="footer-section">
               <div className="footer-logo">
-                <img src="/public/logo.png" alt="" />
+                <img src="/logo.png" alt="" />
               </div>
               <h3 className="footer-heading">Contact</h3>
               <div className="footer-contact">
@@ -472,42 +472,42 @@ const App = () => {
 
 const reviews = [
   {
-    img: "public/pass6.jpg",
+    img: "/pass6.jpg",
     name: "Daniel",
     time: "2 months ago",
     text: "Amazing service!",
     rating: 5,
   },
   {
-    img: "public/pass4.jpg",
+    img: "/pass4.jpg",
     name: "Bob",
     time: "1 month ago",
     text: "Very professional.",
     rating: 4,
   },
   {
-    img: "public/pass1.jpg",
+    img: "/pass1.jpg",
     name: "Clara",
     time: "3 weeks ago",
     text: "Highly recommend!",
     rating: 5,
   },
   {
-    img: "public/pass3.jpg",
+    img: "/pass3.jpg",
     name: "David",
     time: "2 weeks ago",
     text: "Quick and clean.",
     rating: 4,
   },
   {
-    img: "public/pass5.webp",
+    img: "/pass5.webp",
     name: "Oliver ",
     time: "1 week ago",
     text: "Super service.",
     rating: 5,
   },
   {
-    img: "public/pass2.jpg",
+    img: "/pass2.jpg",
     name: "Amelia ",
     time: "5 days ago",
     text: "Efficient and friendly.",

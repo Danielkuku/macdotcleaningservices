@@ -33,7 +33,7 @@ const CommercialCleaning = () => {
       <nav className="navbar">
         <Link to="/#home" className="logo" onClick={closeMenu}>
           <div className="logo">
-            <img src="/public/logo.png" alt="Macdot Logo" />
+            <img src="/logo.png" alt="Macdot Logo" />
           </div>
         </Link>
 
@@ -127,7 +127,7 @@ const CommercialCleaning = () => {
             ))}
           </ul>
           <div className="service-image">
-            <img src="/public/servicepage2.jpeg" alt="Commercial Cleaning" />
+            <img src="/servicepage2.jpeg" alt="Commercial Cleaning" />
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ const CommercialCleaning = () => {
             {/* Contact Section */}
             <div className="footer-section">
               <div className="footer-logo">
-                <img src="/public/logo.png" alt="Logo" />
+                <img src="/logo.png" alt="Logo" />
               </div>
               <h3 className="footer-heading">Contact</h3>
               <div className="footer-contact">

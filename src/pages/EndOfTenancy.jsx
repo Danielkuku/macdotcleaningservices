@@ -33,7 +33,7 @@ const EndOfTenancy = () => {
       <nav className="navbar">
         <Link to="/#home" className="logo" onClick={closeMenu}>
           <div className="logo">
-            <img src="/public/logo.png" alt="Macdot Logo" />
+            <img src="/logo.png" alt="Macdot Logo" />
           </div>
         </Link>
 
@@ -125,7 +125,7 @@ const EndOfTenancy = () => {
             ))}
           </ul>
           <div className="service-image">
-            <img src="/public/servicepage4.jpg" alt="End of Tenancy Cleaning" />
+            <img src="/servicepage4.jpg" alt="End of Tenancy Cleaning" />
           </div>
         </div>
       </div>
@@ -165,7 +165,7 @@ const EndOfTenancy = () => {
             {/* Services Section */}
             <div className="footer-section">
               <h3 className="footer-heading">Our Services</h3>
-              <Link to="/services/residential" className="footer-link">
+              <Link to="/residential" className="footer-link">
                 Residential Cleaning
               </Link>
               <Link to="/services/commercial" className="footer-link">
