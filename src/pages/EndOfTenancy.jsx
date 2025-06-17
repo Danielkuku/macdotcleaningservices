@@ -136,7 +136,7 @@ const EndOfTenancy = () => {
             {/* Contact Section */}
             <div className="footer-section">
               <div className="footer-logo">
-                <img src="/public/logo.png" alt="Logo" />
+                <img src="/logo.png" alt="Logo" />
               </div>
               <h3 className="footer-heading">Contact</h3>
               <div className="footer-contact">
@@ -165,7 +165,7 @@ const EndOfTenancy = () => {
             {/* Services Section */}
             <div className="footer-section">
               <h3 className="footer-heading">Our Services</h3>
-              <Link to="/residential" className="footer-link">
+              <Link to="/services/residential" className="footer-link">
                 Residential Cleaning
               </Link>
               <Link to="/services/commercial" className="footer-link">
