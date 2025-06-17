@@ -133,7 +133,7 @@ section {
 .hero p {
   margin-bottom: 3rem;
   color: white;
-  font-size: 19px;
+  font-size: 1.1rem;
   line-height: 1.5;
   width: 90%;
   margin: auto;
@@ -650,7 +650,7 @@ section {
     min-height: 80vh;
   }
   .hero p {
-    font-size: 24px;
+    font-size: 1.2rem;
     width: 70%;
   }
   .hero .statement {
