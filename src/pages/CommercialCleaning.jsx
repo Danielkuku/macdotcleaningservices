@@ -151,8 +151,8 @@ const CommercialCleaning = () => {
               </div>
               <div className="footer-contact">
                 <strong>Email Address:</strong>{" "}
-                <a href="mailto:cristobaldaniel022@gmail.com">
-                  macdotservices.co.uk
+                <a href="mailto:info@macdotcleaningservices.co.uk">
+                  info@macdotcleaningservices.co.uk
                 </a>
               </div>
               <div className="footer-follow-title">Follow Us</div>
