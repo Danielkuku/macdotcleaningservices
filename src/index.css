@@ -88,7 +88,7 @@ section {
 
 .hero {
   position: relative;
-  height: 85vh;
+  height: 100vh;
   background-image: url("/public/image.jpg"); /* Make sure the image is in public/images */
   background-size: cover;
   background-position: center;
