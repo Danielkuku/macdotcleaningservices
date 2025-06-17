@@ -54,7 +54,7 @@ const CommercialCleaning = () => {
             Reviews
           </Link>
           <Link to="/#footer" onClick={closeMenu}>
-            Enquiry
+            Contact
           </Link>
         </div>
 
@@ -93,7 +93,7 @@ const CommercialCleaning = () => {
             Reviews
           </Link>
           <Link to="/#footer" onClick={closeMenu}>
-            Enquiry
+            Contact
           </Link>
         </div>
       </nav>
@@ -185,7 +185,7 @@ const CommercialCleaning = () => {
 
             {/* Contact Form */}
             <div className="contact-form">
-              <h2>Have a question? Send us a message.</h2>
+              <h2>Book a service or make an enquiry, just send us an email!</h2>
               <form className="form-grid">
                 <div className="form-group">
                   <label htmlFor="name">Name:</label>

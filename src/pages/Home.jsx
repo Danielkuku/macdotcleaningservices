@@ -107,7 +107,7 @@ const App = () => {
             href="#footer"
             className={activeSection === "footer" ? "active" : ""}
           >
-            Enquiry
+            Contact
           </a>
         </div>
         <div className="nav-actions">
@@ -171,7 +171,7 @@ const App = () => {
             href="#footer"
             className={activeSection === "footer" ? "active" : ""}
           >
-            Enquiry
+            Contact
           </a>
         </div>
       </nav>
@@ -425,7 +425,7 @@ const App = () => {
             </div>
 
             <div className="contact-form">
-              <h2>Have a question? Send us a message.</h2>
+              <h2>Book a service or make an enquiry, just send us an email!</h2>
               <form className="form-grid">
                 <div className="form-group">
                   <label htmlFor="name">Name:</label>
