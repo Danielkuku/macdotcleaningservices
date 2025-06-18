@@ -3,12 +3,12 @@ import React from "react";
 import { useState } from "react";
 import "../ServicePage.css";
 import { Link } from "react-router-dom";
+import { FaXTwitter } from "react-icons/fa6";
 import {
   FaCheck,
   FaBars,
   FaTimes,
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaPhone,
 } from "react-icons/fa";
@@ -156,9 +156,29 @@ const MoveInOutCleaning = () => {
               </div>
               <div className="footer-follow-title">Follow Us</div>
               <div className="footer-social-links">
-                <FaFacebookF className="footer-icon" />
-                <FaTwitter className="footer-icon" />
-                <FaInstagram className="footer-icon" />
+                <a
+                  href="https://www.facebook.com/profile.php?id=61577360585806"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebookF className="footer-icon" />
+                </a>
+
+                <a
+                  href="https://x.com/services53285"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter className="footer-icon" />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/macdot_cleaning_services_ltd?igsh=MTd2YjQ4dnF2NmJpYQ=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="footer-icon" />
+                </a>
               </div>
             </div>
 
