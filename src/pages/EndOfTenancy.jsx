@@ -151,8 +151,8 @@ const EndOfTenancy = () => {
               <div className="footer-contact">
                 <strong>Email Address:</strong>{" "}
                 <a href="mailto:info@macdotcleaningservices.co.uk">
-                                  info@macdotcleaningservices.co.uk
-                                </a>
+                  info@macdotcleaningservices.co.uk
+                </a>
               </div>
               <div className="footer-follow-title">Follow Us</div>
               <div className="footer-social-links">
@@ -185,13 +185,34 @@ const EndOfTenancy = () => {
             {/* Contact Form */}
             <div className="contact-form">
               <h2>Book a service or make an enquiry, just send us an email!</h2>
-              <form className="form-grid">
+              <form
+                className="form-grid"
+                action="https://formspree.io/f/xovwljby"
+                method="POST"
+                onSubmit={(e) => {
+                  setTimeout(() => {
+                    e.target.reset();
+                  }, 100);
+                }}
+              >
                 <div className="form-group">
                   <label htmlFor="name">Name:</label>
                   <input
                     id="name"
                     type="text"
+                    name="name"
                     placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="email">Email:</label>
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
                     required
                   />
                 </div>
@@ -201,6 +222,7 @@ const EndOfTenancy = () => {
                   <input
                     id="phone"
                     type="tel"
+                    name="phone"
                     placeholder="Enter your phone number"
                     required
                   />
@@ -210,6 +232,7 @@ const EndOfTenancy = () => {
                   <label htmlFor="message">Message:</label>
                   <textarea
                     id="message"
+                    name="message"
                     placeholder="Enter your message"
                     required
                   ></textarea>

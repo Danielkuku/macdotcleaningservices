@@ -49,10 +49,9 @@ const App = () => {
 
     sections.forEach((section) => observer.observe(section));
 
-    // ✅ Scroll to section if URL has a hash
     const hash = window.location.hash;
     if (hash) {
-      const targetId = hash.substring(1); // remove "#"
+      const targetId = hash.substring(1);
       const targetElement = document.getElementById(targetId);
       if (targetElement) {
         setTimeout(() => {
@@ -64,6 +63,16 @@ const App = () => {
     return () => {
       sections.forEach((section) => observer.unobserve(section));
     };
+  }, []);
+
+  // ✅ Add this as a second useEffect (NOT inside the first)
+  useEffect(() => {
+    if (document.referrer.includes("formspree.io")) {
+      const form = document.querySelector("form");
+      if (form) {
+        form.reset();
+      }
+    }
   }, []);
 
   return (
@@ -430,6 +439,11 @@ const App = () => {
                 className="form-grid"
                 action="https://formspree.io/f/xovwljby"
                 method="POST"
+                onSubmit={(e) => {
+                  setTimeout(() => {
+                    e.target.reset();
+                  }, 100);
+                }}
               >
                 <div className="form-group">
                   <label htmlFor="name">Name:</label>
@@ -441,16 +455,18 @@ const App = () => {
                     required
                   />
                 </div>
+
                 <div className="form-group">
                   <label htmlFor="email">Email:</label>
                   <input
                     id="email"
-                    type="text"
+                    type="email"
                     name="email"
-                    placeholder="Enter your phone number"
+                    placeholder="Enter your email"
                     required
                   />
                 </div>
+
                 <div className="form-group">
                   <label htmlFor="phone">Phone:</label>
                   <input
