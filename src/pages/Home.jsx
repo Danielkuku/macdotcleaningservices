@@ -406,7 +406,14 @@ const App = () => {
               </div>
               <div className="footer-follow-title">Follow Us</div>
               <div className="footer-social-links">
-                <FaFacebookF className="footer-icon" />
+                <a
+                  href="https://www.facebook.com/profile.php?id=61577360585806"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebookF className="footer-icon" />
+                </a>
+
                 <a
                   href="https://x.com/services53285"
                   target="_blank"
