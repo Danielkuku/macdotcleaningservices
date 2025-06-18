@@ -3,7 +3,7 @@ import ReviewCarousel from "../component/ReviewCarousel";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import "../index.css";
-
+import { FaXTwitter } from "react-icons/fa6";
 import {
   FaLeaf,
   FaClock,
@@ -12,7 +12,6 @@ import {
   FaMinus,
   FaPhone,
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaBars,
   FaTimes,
@@ -408,8 +407,21 @@ const App = () => {
               <div className="footer-follow-title">Follow Us</div>
               <div className="footer-social-links">
                 <FaFacebookF className="footer-icon" />
-                <FaTwitter className="footer-icon" />
-                <FaInstagram className="footer-icon" />
+                <a
+                  href="https://x.com/services53285"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter className="footer-icon" />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/macdot_cleaning_services_ltd?igsh=MTd2YjQ4dnF2NmJpYQ=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="footer-icon" />
+                </a>
               </div>
             </div>
 
